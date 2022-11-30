@@ -1,9 +1,15 @@
 {
   "name": "testing-calculator",
   "version": "1.0.0",
+  "scripts": {
+    "test": "mocha"
+  },
   "main": "index.js",
   "repository": "git@github.com:Fabien-jrt/b3-c3-dev-tu-joubert-fabien.git",
   "author": "Fabien-Jrt <67684689+Fabien-jrt@users.noreply.github.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
 }
