@@ -2,10 +2,9 @@
 
 ## BDD
 
-- Operator order is mathematicaly correct
+- Operator order is mathematicaly correct (1 + 2 * 3 = 1 + 6 = 7)  
   - On fail: does not return the right result
-- An operator do one and only one operation
-  - On fail: does not return the right result
+- The operators must be usable beetwin them ( 1 + 2 - 3 = 0)
 - Test int/double overflow
 - The user can't input a string, only numbers
 
