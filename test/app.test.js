@@ -10,5 +10,11 @@ describe('calculator', function(){
             expect(calculator.Add(1,2)).to.equal(calculator.Add(2,1));
             done();
         })
+        it ('1.Identity elemnt is 0 (a + 0 =  a)', function(done){
+            let calculator = new Calculator();
+            expect(calculator.Add(0,2)).to.equal(2);
+            done();
+        })
+
     })
 })
