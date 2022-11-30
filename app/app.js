@@ -4,7 +4,10 @@ class Calculator {
         return a + b ;
     }
     Multiplication(a,b){
-        return a * b
+        return a * b;
+    }
+    Substraction(a,b){
+        return a - b ;
     }
 }
 
