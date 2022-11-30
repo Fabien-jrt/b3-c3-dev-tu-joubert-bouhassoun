@@ -34,6 +34,6 @@
 - Prrcentage (%)
   - cant count percentage of 0 or negatif number 
      - on fail: display "number is 0 or negatif"
-  - Power of number (^)
+ - Power of number (^)
   - cant count 
 
