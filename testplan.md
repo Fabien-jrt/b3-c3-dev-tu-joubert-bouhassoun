@@ -31,4 +31,10 @@
   - cant divide by 0
     - on fail: display "can't devide by 0"
   - division is not comutative (a / b != b / a)
+- Prrcentage (%)
+  - cant count percentage of 0 or negatif number 
+     - on fail: display "number is 0 or negatif"
+- Power of number (^)
+  -
+  - cant count 
 
