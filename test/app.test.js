@@ -40,9 +40,21 @@ describe('calculator', function(){
         })
     })
     describe('substraction ', function(){
-        it ('1.Substraction is  not  Comutative (a - b = b - a)', function(done){
+        it ('1.Substraction is  not  Comutative (a - b != b - a)', function(done){
             let calculator = new Calculator();
             expect(calculator.Substraction(4,2)).to.equal(2);
+            done();
+        })
+    })
+    describe('division ', function(){
+        it ('1.Cant devide by 0 ', function(done){
+            let calculator = new Calculator();
+            expect(calculator.Division(4,0)).to.equal('can\'t devide by 0');
+            done();
+        })
+        it ('2.Division is  not  Comutative (a / b != b / a)', function(done){
+            let calculator = new Calculator();
+            expect(calculator.Division(4,2)).to.equal(2);
             done();
         })
     })
