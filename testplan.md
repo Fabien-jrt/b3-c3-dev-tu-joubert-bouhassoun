@@ -7,13 +7,12 @@
 - An operator do one and only one operation
   - On fail: does not return the right result
 - Test int/double overflow
+- The user can't input a string, only numbers
+
 
 ## TDD
 
-- Operators do the good kind of operation (+, -, \*, \/, %, pow(), sqrt(),())
-- Operations return the good result (1 + 1 = 2, 1 - 1 = 0, etc...)
-  - On fail: does not return the right result 
-- Take only the last operation
+- Take only the last operation (GUI)
   - On fail: cash
 
 - addition (+)
